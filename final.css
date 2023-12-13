@@ -20,6 +20,10 @@ body {
 }
 #weather-container button{
     padding: 10px 10px;
+    background: rgb(34, 192, 197);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 #search-box {

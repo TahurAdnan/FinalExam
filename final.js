@@ -1,13 +1,10 @@
 function searchWeather() {
-    console.log("Clicked")
     var apiKey = 'ba2e3b93670e8a6e4baa7fcea6e8377b';
-    const city = document.getElementById('search-box').value;
-    console.log(city)
+    var city = document.getElementById('search-box').value;
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
         .then(response => response.json())
         .then(data => {
-            console.log(data)
             var cityElement = document.getElementById('city');
             var temperatureElement = document.getElementById('temperature');
             var descriptionElement = document.getElementById('description');
