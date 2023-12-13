@@ -9,7 +9,18 @@ body {
     justify-content: center;
     height: 100vh;
 }
-
+.header{
+    background: rgb(34, 192, 197);
+    color: white;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.header p{
+    text-align: center;
+    font-weight: bold;
+}
 #weather-container {
     text-align: center;
     padding: 20px;
@@ -24,13 +35,14 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 #search-box {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid rgb(34, 192, 197);
+    border-radius: 10px;
     width: 200px;
 }
 
